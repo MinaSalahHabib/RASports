@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19672" started-at="2020-06-26T23:06:06Z" finished-at="2020-06-26T23:06:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19672" started-at="2020-06-26T23:06:06Z" finished-at="2020-06-26T23:06:25Z">
+      <class name="testPackage.smokeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testPackage.smokeTest@512d6e60]" name="beforeClass" is-config="true" duration-ms="6580" started-at="2020-06-27T01:06:06Z" finished-at="2020-06-27T01:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="AddToCart(java.lang.String, java.lang.String)[pri:0, instance:testPackage.smokeTest@512d6e60]" name="AddToCart" duration-ms="12175" started-at="2020-06-27T01:06:12Z" data-provider="login-data-provider" finished-at="2020-06-27T01:06:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eng.mina.salah.habib@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testPackage.smokeTest@512d6e60]" name="afterClass" is-config="true" duration-ms="871" started-at="2020-06-27T01:06:25Z" finished-at="2020-06-27T01:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testPackage.smokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
